@@ -59,7 +59,7 @@ export default function Profile() {
                 {casos.map(casos => (
                     <li key={casos.id}>
                         <strong>CASO: </strong>
-                <p>{casos.title}</p>
+                <p>{casos.titulo}</p>
 
                         <strong>DESCRIÇÃO: </strong>
                 <p>{casos.description}</p>
